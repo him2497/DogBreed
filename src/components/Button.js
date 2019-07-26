@@ -5,10 +5,10 @@ import {Link} from "react-router-dom";
 
 export default function CustomButton(props) {
         return (
-            <Button className="customButtons" variant="contained" color="secondary">
+            <Button variant="contained" color="secondary">
                 {
                     props.link ? (<Link
-                                    style={{textDecoration: "none", color: "white"}} 
+                                    style={{textDecoration: "none", color: "white", wordBreak: 'break-word'}} 
                                     to={`/images/${props.label}`}>
                                     <p>{props.label}</p>
                     </Link>) : <p>{props.label}</p>

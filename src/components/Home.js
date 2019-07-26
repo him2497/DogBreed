@@ -7,7 +7,8 @@ const styles = {
         display: 'grid',
         gridGap: '10px',
         gridTemplateColumns: '33% 33% 33%',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        padding: '25px'
     },
     box : {
         borderRadius: '5px',
