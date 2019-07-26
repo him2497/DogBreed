@@ -6,7 +6,7 @@ const styles = {
     wrapper : {
         display: 'grid',
         gridGap: '10px',
-        gridTemplateColumns: '33% 33% 33%',
+        gridTemplateColumns: '25% 25% 25% 25%',
         justifyContent: 'center',
         padding: '25px'
     },
