@@ -7,7 +7,9 @@ const styles = {
         'display': 'flex',
         'flexDirection': 'row',
         'flexWrap': 'wrap',
-        'width': '100%'
+        'width': '100%',
+        'justifyContent': 'center',
+        'alignItems': 'center',
     },
     column: {
         'display': 'flex',
