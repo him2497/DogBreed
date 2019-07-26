@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-### `yarn`
+### `yarn install`
 
 Runs the installation of packages needed to run the application.
 
